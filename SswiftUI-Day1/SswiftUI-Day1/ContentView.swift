@@ -10,20 +10,34 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        ZStack{
-            
+        List(0..<100){_ in
             HStack{
-                Text("Hello, world!")
-                Text("hi")
+                Image(systemName: "heart.fill")
+                VStack{
+                    HStack{
+                        Text("Name:")
+                        Text("janarthan")
+                    }
+                    
+                    HStack{
+                        Text("Age:")
+                        Text("21")
+                    }
+                    
+                }
             }
         }
-        
-        
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        Group {
+          
+            ContentView()
+                .previewDevice("iPhone SE (1st generation)")
+           
+        }
+       
     }
 }
