@@ -1,13 +1,13 @@
 //
-//  SwiftUI_Day1UITestsLaunchTests.swift
-//  SwiftUI-Day1UITests
+//  SswiftUI_Day1UITestsLaunchTests.swift
+//  SswiftUI-Day1UITests
 //
 //  Created by Janarthan S on 26/08/22.
 //
 
 import XCTest
 
-class SwiftUI_Day1UITestsLaunchTests: XCTestCase {
+class SswiftUI_Day1UITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true

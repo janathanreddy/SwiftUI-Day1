@@ -1,16 +1,24 @@
 //
 //  ContentView.swift
-//  SwiftUI-Day1
+//  SswiftUI-Day1
 //
 //  Created by Janarthan S on 26/08/22.
 //
 
 import SwiftUI
 
+
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        ZStack{
+            
+            HStack{
+                Text("Hello, world!")
+                Text("hi")
+            }
+        }
+        
+        
     }
 }
 
